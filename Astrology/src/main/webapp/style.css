@@ -1,0 +1,269 @@
+body{ 
+    height: auto;
+    width: 100%;
+}
+.astrology-name{
+    background-color: #97a3f4;
+
+}
+.astrology-name p{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #97a3f4, 0 0 30px #97a3f4, 0 0 40px #97a3f4, 0 0 55px #97a3f4, 0 0 75px #97a3f4, -36px -33px 0px rgba(206,89,55,0);
+}
+.astrology-name img{
+    border-radius: 50%;
+}
+.astrology-name .name{
+    font-size:25px ;
+    font-weight: 700;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #52C9CE;
+    background: -moz-linear-gradient(left, #52C9CE 0%, #20A4A1 19%, #5EC595 100%);
+    background: -webkit-linear-gradient(left, #52C9CE 0%, #20A4A1 19%, #5EC595 100%);
+    background: linear-gradient(to right, #52C9CE 0%, #20A4A1 19%, #5EC595 100%);
+}
+
+.header img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #080606;
+    border-radius: 25%;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar .logo span {
+
+    font-size: 35px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navlist li {
+    margin-right: 30px;
+}
+
+.navlist li:last-child {
+    margin-right: 0px;
+}
+
+.navlist li a {
+    font-weight: 1000;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-icon {
+    display: none; /* Hide menu icon by default */
+}
+
+
+
+span{
+    color: rgb(244, 214, 214);
+    text-shadow: #221f1f 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 1px 0px rgba(206,89,55,0);
+}
+ .navlist{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+
+}
+.navlist a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    transition: all .60s ease;
+}
+.navlist a div{
+    font-size: 18px;
+}
+.navlist a:hover{
+    color: whitesmoke;
+    text-shadow: 5px 5px 20px whitesmoke, -2px 1px 30px white;   
+} 
+.menu-icon {
+    display: none;
+}
+
+.h-btn{
+    display: inline-block;
+    background: transparent;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+.h-btn:hover{
+    background:radial-gradient(rgb(232, 204, 204), rgb(126, 126, 154));
+    color:black;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+}
+
+.contact .whatsapp img{
+    height: 75px;
+    margin-top: 40%;
+    margin-left: 90%; 
+}
+.contact .whatsapp img:hover{
+    height: 85px;
+}
+.content{
+    background: linear-gradient(rgb(238, 227, 227), rgb(216, 216, 228), rgb(220, 198, 198), rgb(208, 208, 224), rgb(220, 210, 210), rgb(190, 190, 217));
+    height: 100vh;
+    width: 100%;
+}
+.slide {
+    background:linear-gradient(whitesmoke,rgb(196, 196, 186));
+}
+.image {
+    max-width: 100%;
+    height: 50vh;
+  }
+  .slide-text{
+    border: 1px solid red;
+    margin-bottom: 100px;
+  }
+.slide h5{
+    font-size: 45px;
+    font-weight: 1000;
+    text-shadow: #2c2d2d;
+    color: #08b5cc;
+}
+.slide p{
+    font-size: 25px;
+    font-weight: 1000;
+    text-shadow: #2c2d2d;
+}
+.signs{
+    background-color: black;
+}
+.title{
+    margin-bottom: 2%;
+    color: #221f1f;
+    text-align: center;
+    color: #A7DD3C;
+    background: #FFFFFF;
+    text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+}
+.about-bg{
+    background: linear-gradient(whitesmoke, rgb(253, 253, 247));
+}
+.about{
+    background: linear-gradient(white,white, yellow,white);  
+    margin: 20px;   
+} 
+
+.about-image{
+    max-height:450px; 
+    max-width: 50%;
+    border-radius: 50%;
+    border:rgb(150, 150, 150) 5px solid; 
+}
+.details h5{
+    font-size: 35px;
+    font-weight: 800;
+    color: #524b4b;
+    background:none;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+.details p {
+    font-weight: 800;
+    font-size: 10px;
+}
+.details div {
+    font-weight: 600;
+}
+.about-image1{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+}
+.photo{
+    text-align: center;
+    justify-content: center;
+}
+.photo img{
+    border-radius: 5%;
+    height: 500px;
+    width: 50px;
+}
+.services{
+    background: linear-gradient(whitesmoke, yellow);
+}
+.title-name h5{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #272424;
+    text-shadow: 4px 3px 0 #a49797;
+}
+.title-name img{
+    height:55px;
+     width:auto;  
+     border-radius: 50%;
+}
+.title-name p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.title-name ul li{
+    font-size: 18px;
+}
+
+.contact-form{
+    margin: 45px; 
+    padding: 45px;
+     background: linear-gradient(whitesmoke, yellow);
+}
+.contactme{
+    margin: 45px; 
+    background: linear-gradient(whitesmoke, yellow);
+}
+.social{
+    padding-top: 35px;
+    
+}
+.social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    border-radius: 50%;
+    backdrop-filter: brightness(88%);
+    font-size: 40px;
+    margin-right: 17px;
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.social i:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(25, 24, 24);
+}
